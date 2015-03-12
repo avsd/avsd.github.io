@@ -12,7 +12,7 @@ body_class: "home page-template-home-page page-template-home-page-php page-id-8 
         <div class="home-background"></div>
 
         <!-- Home Overlay -->
-        <div class="overlay" style=" background-image:url(http://wp.davidavs.com/wp-content/themes/promotion/lib/admin/img/texture/1.png); background-color:rgba(255, 255, 255 , 0.3 );"></div>
+        <div class="overlay" style=" background-image:url({{ '/img/1.jpg' | prepend: site.baseurl }}); background-color:rgba(255, 255, 255 , 0.3 );"></div>
 
         <div class="max-container">
             <div class="row">
@@ -20,7 +20,7 @@ body_class: "home page-template-home-page page-template-home-page-php page-id-8 
                     <!-- Biography -->
                     <div class="biography">
                                                 <div class="image">
-                                                        <img src="http://wp.davidavs.com/wp-content/uploads/2015/02/pDqAp5rI.jpg" alt="Personal image" />
+                                                        <img src="{{ '/img/davidavs.jpg' | prepend: site.baseurl }}" alt="Avatar" />
                         </div>
                                                 <div class="content ">
                             <h5 class="title">DAVID AVSAJANISHVILI</h5>
