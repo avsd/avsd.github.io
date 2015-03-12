@@ -1,23 +1,49 @@
 ---
 layout: default
+body_class: "home page-template-home-page page-template-home-page-php page-id-8 page page-template no-js"
 ---
 
-<div class="home">
+<div id="main" class="main">
+    <div id="main-content" class="main-content" page-type="home">
 
-  <h1 class="page-heading">Posts</h1>
+        <!-- Background for tablet and mobile -->
+        <div class="home-background"></div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <!-- Home Overlay -->
+        <div class="overlay" style=" background-image:url(http://wp.davidavs.com/wp-content/themes/promotion/lib/admin/img/texture/1.png); background-color:rgba(255, 255, 255 , 0.3 );"></div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+        <div class="max-container">
+            <div class="row">
+                <div class="span9">
+                    <!-- Biography -->
+                    <div class="biography">
+                                                <div class="image">
+                                                        <img src="http://wp.davidavs.com/wp-content/uploads/2015/02/pDqAp5rI.jpg" alt="Personal image" />
+                        </div>
+                                                <div class="content ">
+                            <h5 class="title">DAVID AVSAJANISHVILI</h5>
+                                                        <div class="separator"></div>
+                                                        <div class="bio">
+                            <p style="text-align: left;">I am a professional <strong>Software Developer</strong> with experience of working in different industries for 12+ years, including Telecom, ERP, Commercial Banking, Business and Technology SaaS, and online B2C services. For the past 5 years I have acted as a <strong>Technology Entrepreneur</strong>, helping tech startups to succeed. I have been working in different roles, both as a co-founder and as an external consultant.</p>
+<p style="text-align: left;">I am currently doing <strong>Executive MBA</strong> degree at Hult International Business School in London. The program in world&#8217;s most international business school provides a foundation to use my experience and skills more effectively. Expecting to graduate in August, 2015.</p>
+                            </div>
+                                                    </div>
+                    </div>
+                </div>
+<!--
+<div class="span3">
+  <div class="sidebar widget-area border-left no-widgets">
+    <div id="px_twitter-3" class="widget widget_px_twitter">
+      <h4 class="widget-title">Tweets</h4>
+      <hr class="hr-small">
+      <ul class="twitter-recent-list">
+      </ul>
+    </div>
+  </div>
+</div>
+-->
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+            </div>
+        </div>
+    </div>
 </div>

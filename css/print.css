@@ -1,0 +1,199 @@
+/**
+ * Example Print Preview site
+ *
+ *	print.css
+ *	author: PixFlow Family
+ */
+
+/* Grid */
+.max-container{
+    width: 100%;
+}
+
+img{
+    display: none;
+}
+
+/* Header */
+header {
+    background: #ffffff;
+    margin: 60px 40px  ;
+}
+
+header .navigation-button{
+    display: none;
+}
+
+header .navigation-button span{
+    display: none;
+}
+
+body[class*="resume"] .logo .name{
+    color: #000000;
+    font-size: 35px;
+}
+
+.logo .job-title{
+    display: block;
+    color: #000;
+    font-size: 20px;
+}
+
+.resume .toggle{
+    margin-top: 200px;
+}
+
+.resume .toggle .printer{
+    display: none;
+}
+
+/* Content */
+
+.resume .toggle .tab{
+    border-top: 2px solid #000;
+    padding: 0 40px;
+}
+
+.resume .toggle .tab:last-child{
+    padding-bottom: 60px;
+}
+
+.resume .tab .top-separator{
+    display: none;
+}
+
+.accordion .header, .toggle .header{
+    position: relative;
+}
+
+.resume .toggle .tab-button {
+    display: none;
+}
+
+.resume .toggle .header .title{
+    display: inline-block;
+    padding: 0 7px;
+    background-color: #fff;
+    position: absolute;
+    top: -19px;
+    font-size: 21px;
+}
+
+/* tab body */
+
+.resume .toggle .tab .body{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume .item{
+    padding: 30px 0 30px ;
+}
+
+
+/* Exp */
+.resume .experience .head{
+    padding-top: 0;
+    float: none;
+}
+
+.resume .experience .head .title,
+.resume .testimonial .title{
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 0;
+}
+.resume .experience .head .separator{
+    display: none;
+
+}
+
+.resume .experience .head .duration,
+.resume .education .duration,
+.resume .testimonial .subtitle
+{
+    font-size: 13px;
+}
+
+.resume .item .glyph{
+    display: none;
+}
+
+.skill-holder{
+    display: none;
+}
+
+.resume .experience-counter{
+    display: none;
+}
+
+.resume .item .description{
+    border-left: none;
+    max-width: 100%;
+    float: none;
+    padding-left: 0;
+    line-height: 16px;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    width: 100%;
+}
+
+.resume .experience .item-separator,
+.resume .education .item-separator,
+.resume .testimonial .item-separator{
+    display: none;
+}
+
+/* Skills */
+.resume .skills .item{
+    margin-right: 0;
+    padding: 0;
+    opacity: 1 !important;
+    width: 178px;
+}
+
+.resume .skills .item .circle svg{
+    transform:scale(1) !important;
+    -moz-transform:scale(1) !important;
+    -webkit-transform:scale(1) !important;
+}
+/* Education */
+.resume .education .item{
+    border-bottom: none;
+}
+
+.resume .education .title{
+    padding-top: 0 !important;
+    margin-top: -45px;
+    margin-bottom: 35px;
+    float: none;
+    max-width: 100%;
+}
+
+.resume .education .duration{
+    float: none;
+    padding-top: 0;
+    width: 100%;
+}
+
+/*testimonial */
+.resume .testimonial .item{
+    padding: 30px 0 0 ;
+}
+
+.testimonial-image{
+    display: none;
+}
+
+.resume .testimonial .head{
+    float: none;
+}
+
+.resume .testimonial .description{
+    float: none;
+}
+
+footer{
+    display: none;
+}

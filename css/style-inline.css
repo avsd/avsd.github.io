@@ -1,0 +1,319 @@
+.page-loader .text .name:before{color:rgb(0,255,0);}
+.page-loader .text .name:before{color:#4dac46;}
+body{ color:#666666; font-family:'Open Sans', sans-serif; }
+
+.contact-page .info .address,
+.contact-page .info .email,
+.contact-page .info .phone,
+.contact-page .info .website,
+.contact-page .info .other-info,
+.progressbar .title,
+.contact-page .px-form-name input[type="text"],
+.contact-page .px-form-email input[type="email"],
+.contact-page .px-form-message textarea
+{font-family:'Open Sans', sans-serif; }
+
+
+
+/* Logo Name */
+.logo .name {  font-family:'Oswald', sans-serif;text-transform:uppercase; }
+.page-loader .text .name {  font-family:'Oswald', sans-serif;text-transform:uppercase; }
+.logo .job-title { font-family:'Oswald', sans-serif;}
+.page-loader .text .job-title { font-family:'Oswald', sans-serif;}
+.logo .name-small { font-family:'Oswald', sans-serif;text-transform:uppercase;  }
+
+/* Text Selection */
+
+::-moz-selection { background: #4dac46; /* Firefox */ }
+::selection { background: #4dac46; /* Safari */ }
+
+
+/* Anchor */
+
+a{ color:#4dac46; }
+a:hover{ color:#333333; }
+
+
+/* Job title */
+.logo .job-title{ color:#4dac46; }
+
+/* Separator */
+.separator{ background-color:#4dac46; }
+.media-separator{ background-color:#4dac46; }
+
+/* Headings */
+
+h1, h2, h3, h4, h5, h6,
+.resume .experience .head .title,
+.resume .skills .item .title,
+.resume .education .title,
+.resume .experience .head .duration,
+.resume .education .duration,
+.resume .testimonial .title,
+.resume .testimonial .subtitle,
+.contact-page .info .title,
+.contact-page .info .subtitle,
+.resume .experience-counter .counter,
+.resume .skills .number,
+.resume .skills .percent,
+.resume .toggle .printer .print-text,
+.portfolio-list .item-image-overlay .overlay-title a,
+.portfolio-list .item-image-overlay .overlay-category
+{ font-family:'Oswald', sans-serif; }
+
+
+/* Navigation */
+
+header .navigation .title,
+header .navigation li li > a,
+.navigation .subtitle{ font-family:'Oswald', sans-serif; }
+
+
+.navigation li:hover .title{color:#4dac46;}
+
+header .navigation-button:hover{color:#4dac46;}
+
+.navigation-mobile .navigation-close:hover{color:#4dac46;}
+
+
+.archive .text-comment .more-link:hover,
+.blog .text-comment .more-link:hover,
+.archive .text-comment .more-link span:hover ,
+.blog .text-comment  .more-link span:hover{
+    color:#4dac46;
+}
+
+
+
+.archive .comments-link,
+.blog .comments-link{
+    background-color:#4dac46}
+
+#commentform input[type="submit"]{
+    background-color:#4dac46;
+    border:1px solid #4dac46;
+
+}
+
+.single-post .head .date{
+    color:#4dac46;
+}
+
+.button2,
+form input[type="submit"]{
+    background-color: #4dac46;
+    border-color :  #4dac46;
+}
+
+
+.button1{
+    background-color:#4dac46;
+}
+
+.color-accent-background
+{
+    background-color:#4dac46;
+}
+
+.color-accent-foreground
+{
+    color:#4dac46;
+}
+
+
+#page-title{
+    background-color:#4dac46;
+}
+
+
+.widget-area a:hover{
+    color:#4dac46;
+}
+
+.tagcloud a:hover{
+    color:#4dac46;
+
+    border: 1px solid #4dac46;
+    -moz-border: 1px solid #4dac46;
+    -webkit-border: 1px solid #4dac46;
+}
+
+.widget_bj_testimonials .name{
+    color: #4dac46;
+}
+
+widget_px_testimonials .name
+    color: #4dac46;
+}
+#footer-bottom a:hover
+{
+    color:#4dac46;
+}
+
+footer .social-icons span:hover
+{
+    color: #4dac46;
+}
+
+footer .widget-area hr{
+    background-color: #4dac46;
+}
+
+footer .widget_tag_cloud a:hover{
+    background-color: #4dac46;
+    border:1px solid #4dac46;
+}
+
+.footer-widgets .wpcf7 input[type="submit"]:hover{
+    background-color: #4dac46;
+}
+
+.iconbox.iconbox-hex:hover .icon{
+    background-color: #4dac46;
+}
+
+.iconbox.iconbox-circle:hover .icon{
+    border:1px solid #4dac46;
+}
+
+.iconbox .glyph{
+    color: #4dac46;
+}
+
+.iconbox.iconbox-circle:hover .glyph,
+.iconbox.iconbox-hex:hover .glyph{
+    color:#4dac46;
+}
+
+.iconbox:hover .title{
+    color:#4dac46;
+}
+
+.iconbox .more-link a:hover{
+    color: #4dac46;
+}
+
+.portfolio-list .item-meta a{
+    color: #4dac46;
+}
+
+.portfolio-style1 .item-image-overlay
+{
+    background-color: #4dac46;
+    background-color: rgba(77, 172, 70, .7);    
+}
+
+.portfolio-style1 .item-icon:hover{
+    color: #4dac46;
+}
+
+.portfolio-style2 .item-image-overlay
+{
+    background-color: #4dac46;
+    background-color: rgba(77, 172, 70, .3);
+}
+
+.portfolio-style2 .item-icon:hover
+{
+    background: #4dac46;
+}
+
+.progressbar .progress{
+    background-color:#99ac97; 
+}
+
+.progressbar .progress-inner{
+    background-color: #4dac46;
+}
+
+.accordion .header:hover .title,
+.toggle .header:hover .title,
+.accordion .header:hover .tab-button,
+.toggle .header:hover .tab-button{
+    color:#4dac46;
+}
+
+.post-slider .slider-nav{
+    border:1px solid #4dac46;
+}
+
+.post-slider .nav-separator{
+    background-color: #4dac46;
+}
+
+.post-slider .nav-prev,
+.post-slider .nav-next{
+    background-color:#4dac46;
+}
+
+.post-content .quote-symbol{
+    color:#4dac46;
+}
+
+.post-slider .format-quote .item-media{
+    background-color: #4dac46;
+}
+
+.post-slider .media-date{
+    background-color: #4dac46;
+}
+
+.horizontal-tab .titles .current{
+    color:#4dac46;
+}
+
+.horizontal-tab .titles .current .pointer
+{
+    border-color: #4dac46;
+}
+
+.tabs .head .current,
+.tabs .head li:hover{
+    color:#4dac46;
+}
+
+.tabs .head .current{
+    border-bottom: 2px solid #4dac46;
+}
+
+.post .post-title{
+    color: #4dac46;
+}
+
+.post-pagination a:hover,
+.post-pagination .this-page
+{
+    color: #4dac46;
+}
+
+.comments-list .comment-reply-link:hover
+{ 
+    background-color: #4dac46;
+}
+
+.search-item:hover .count{
+    color: #4dac46;
+}
+
+/*=== Resume ===*/
+.resume .experience .item-separator,
+.resume .education .item-separator,
+.resume .testimonial .item-separator{
+border-color:#4dac46;
+}
+
+.resume .experience-counter .counter,
+.resume .item:hover .glyph{
+color:#4dac46;
+}
+
+.resume .skills .number,
+.resume .skills .percent{
+fill:#4dac46;
+}
+
+/*==== Style Overrides ====*/
+
+.tab {
+    margin-bottom: 3em;
+}
