@@ -2,8 +2,7 @@
 title: David Avs
 email: david@davidavs.com
 description: > # this means to ignore newlines until "baseurl:"
-    David Avsajanishvili: Web Developer, Startup Entrepreneur, Executive MBA
-    candidate at Hult Business School London.
+    David Avsajanishvili: Web Developer, Startup Entrepreneur, EMBA
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://davidavs.com" # the base hostname & protocol for your site
 twitter_username: davidavs
